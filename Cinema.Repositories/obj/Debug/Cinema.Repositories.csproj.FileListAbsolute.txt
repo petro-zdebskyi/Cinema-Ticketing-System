@@ -1,0 +1,7 @@
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\bin\Debug\Cinema.Repositories.dll
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\bin\Debug\Cinema.Repositories.pdb
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\obj\Debug\Cinema.Repositories.dll
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\obj\Debug\Cinema.Repositories.pdb
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\obj\Debug\Cinema.Repositories.csprojResolveAssemblyReference.cache
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\bin\Debug\Cinema.Entities.dll
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Repositories\bin\Debug\Cinema.Entities.pdb

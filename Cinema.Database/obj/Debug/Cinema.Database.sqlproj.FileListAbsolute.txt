@@ -1,0 +1,9 @@
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\bin\Debug\Cinema.Database.dacpac
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\bin\Debug\Cinema.Database.dll
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\bin\Debug\Cinema.Database.pdb
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\Cinema.Database.dll
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\Cinema.Database.pdb
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\Model.xml
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\refactor.xml
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\postdeploy.sql
+E:\EPAM\Parking Project\Console UI\Cinema_Ticketing_System\Cinema.Database\obj\Debug\predeploy.sql

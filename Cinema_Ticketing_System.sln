@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.DesktopUI", "Cinema_Ticketing_System\Cinema.DesktopUI.csproj", "{4B393ED1-AB9D-48B3-979B-1FBDC3F1C34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Entities", "Cinema.Entities\Cinema.Entities.csproj", "{67774DA3-DDCC-452A-9120-2B8EE9C5AFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Repositories", "Cinema.Repositories\Cinema.Repositories.csproj", "{F7D71345-1E6A-4110-BE3A-1FFA41731B8D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Cinema.Database", "Cinema.Database\Cinema.Database.sqlproj", "{7C445D28-F5CC-414F-930B-49CCF9804848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B393ED1-AB9D-48B3-979B-1FBDC3F1C34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B393ED1-AB9D-48B3-979B-1FBDC3F1C34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B393ED1-AB9D-48B3-979B-1FBDC3F1C34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B393ED1-AB9D-48B3-979B-1FBDC3F1C34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67774DA3-DDCC-452A-9120-2B8EE9C5AFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67774DA3-DDCC-452A-9120-2B8EE9C5AFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67774DA3-DDCC-452A-9120-2B8EE9C5AFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67774DA3-DDCC-452A-9120-2B8EE9C5AFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D71345-1E6A-4110-BE3A-1FFA41731B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D71345-1E6A-4110-BE3A-1FFA41731B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D71345-1E6A-4110-BE3A-1FFA41731B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D71345-1E6A-4110-BE3A-1FFA41731B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C445D28-F5CC-414F-930B-49CCF9804848}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
