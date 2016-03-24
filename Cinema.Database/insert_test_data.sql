@@ -41,7 +41,7 @@
 		INSERT INTO tblCustomers(FirstName, LastName, CardNumber, Discount, TicketsPurchased) VALUES
 		('John', 'Smith', 10, 10.0, 10);
 		INSERT INTO tblCustomers(FirstName, LastName, CardNumber, Discount, TicketsPurchased) VALUES
-		('Carl', 'Williams', 10, 10.0, 10);
+		('Carl', 'Williams', 11, 10.0, 10);
 		INSERT INTO tblCustomers(FirstName, LastName, CardNumber, Discount, TicketsPurchased) VALUES
-		('Peter', 'McGregor', 10, 10.0, 10);
+		('Peter', 'McGregor', 12, 10.0, 10);
 
