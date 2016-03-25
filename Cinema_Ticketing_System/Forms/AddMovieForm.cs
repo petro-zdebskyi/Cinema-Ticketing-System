@@ -25,6 +25,7 @@ namespace Cinema_Ticketing_System
         private void addMovieButton_Click(object sender, EventArgs e)
         {
             _movie.Name = movieNameTextBox.Text;
+            // Petro Zdebsky Review: use Int32.TryParse() instead Convert.ToInt32()
             _movie.RunningTime = Convert.ToInt32(runningLengthTextBox.Text);
             _movie.Description = descriptionTextBox.Text;
             DialogResult = DialogResult.OK;
