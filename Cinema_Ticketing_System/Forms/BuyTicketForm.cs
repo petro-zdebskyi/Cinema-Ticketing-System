@@ -187,7 +187,7 @@ namespace Cinema_Ticketing_System
                 MessageBox.Show("Customer with that card number already exists!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-                MessageBox.Show("Customer successfully added to the database!", "Success!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Customer successfully added to the database!", "Success!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }
