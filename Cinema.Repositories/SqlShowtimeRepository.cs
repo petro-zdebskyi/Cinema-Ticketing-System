@@ -12,6 +12,7 @@ namespace Cinema.Repositories
     /// </summary>
     public class SqlShowtimeRepository : ISqlShowtimeRepository
     {
+        //Petro Zdebsky Review: upercase of const variables
         #region Private fields
         private readonly string _connectionString;
         private const string showtimeQuery = @"SELECT * FROM tblShowtimes WHERE DateAndTime >= @startDate AND Deleted = 0";
