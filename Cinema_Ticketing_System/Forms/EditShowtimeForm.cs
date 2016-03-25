@@ -32,6 +32,7 @@ namespace Cinema_Ticketing_System
         {
             _showtime.Price = Convert.ToDecimal(priceTextBox.Text);
             _showtime.DateAndTime = dateAndTimePicker.Value;
+            // Petro Zdebsky Review: use Int32.TryParse() instead Convert.ToInt32() 
             _showtime.MovieId = Convert.ToInt32((from m in _movies where m.Name == movieBox.SelectedItem.ToString() select m.Id).First()); // Get the Id of the movie by its name
             DialogResult = DialogResult.OK;
             this.Close();
