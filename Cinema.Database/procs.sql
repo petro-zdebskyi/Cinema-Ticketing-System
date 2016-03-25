@@ -15,6 +15,7 @@ BEGIN
 	BEGIN
 		INSERT INTO tblSales(ShowtimeId, SeatId, Cost, CustomerId, PurchaseDate) VALUES
 		(@showtimeId, @seatId, dbo.GetPrice(@showtimeId, @seatId), NULL, GETDATE());
+		-- use SCOPE_IDENTITY() instead @@IDENTITY
 		SET @transactionId = @@IDENTITY;
 	END
 END
@@ -69,6 +70,7 @@ BEGIN
 		SET Discount = 15
 		WHERE Id = @customerId;
 	END
+	-- use SCOPE_IDENTITY() instead @@IDENTITY
 	SET @transactionId = @@IDENTITY;
 END
 GO
