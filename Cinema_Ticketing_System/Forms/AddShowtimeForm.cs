@@ -31,6 +31,7 @@ namespace Cinema_Ticketing_System
         private void addShowtimeButton_Click(object sender, EventArgs e)
         {
             _newShowtime.DateAndTime = dateAndTimePicker.Value;
+            // Petro Zdebsky Review: use Int32.TryParse() instead Convert.ToInt32()
             _newShowtime.Price = Convert.ToInt32(priceTextBox.Text);
             _newShowtime.MovieId = Convert.ToInt32((from m in _movies where m.Name == movieBox.SelectedItem.ToString() select m.Id).First());
             DialogResult = DialogResult.OK;
@@ -47,8 +48,9 @@ namespace Cinema_Ticketing_System
             {
                 movieBox.Items.Add(mov.Name);
             }
-
-            var selected = ((Movie)(from m in _movies select m).First()).Name; // Selects first movie from the list in moviesBox element
+            
+            // Selects first movie from the list in moviesBox element
+            var selected = ((Movie)(from m in _movies select m).First()).Name; 
             movieBox.SelectedItem = selected;
         }
         #endregion
