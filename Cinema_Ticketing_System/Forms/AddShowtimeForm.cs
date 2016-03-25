@@ -48,7 +48,8 @@ namespace Cinema_Ticketing_System
                 movieBox.Items.Add(mov.Name);
             }
 
-            var selected = ((Movie)(from m in _movies select m).First()).Name; // Selects first movie from the list in moviesBox element
+            // Selects first movie from the list in moviesBox element
+            var selected = ((Movie)(from m in _movies select m).First()).Name; 
             movieBox.SelectedItem = selected;
         }
         #endregion
