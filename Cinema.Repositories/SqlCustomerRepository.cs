@@ -11,6 +11,7 @@ namespace Cinema.Repositories
     /// </summary>
     public class SqlCustomerRepository : ISqlCustomerRepository
     {
+        // Petro Zdebsky Review: pascal case in region naming
         #region Private fields
         private readonly string _connectionString;
         private const string Query = @"SELECT * FROM tblCustomers;";
