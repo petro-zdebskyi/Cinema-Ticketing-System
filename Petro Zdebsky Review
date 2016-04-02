@@ -1,0 +1,19 @@
+1. Coding conventions (4)
+bad region names, 
+bad names of some const variables.
+
+2. General coding (4,5)
+using convert.int() instead int.TryParse(), 
+create Sqlconnection in all function, 
+no validation of input parametres.
+
+3. OOP (5)
+
+4. Database design (4)
+user table is not is not connected to any table, 
+using @identity instead scope_identity, 
+not all columns of tables can see in DB diagram.
+
+5. Usability (4,5)
+interface of buy ticket window could be better, 
+exception before open main window and when edit showtime.
